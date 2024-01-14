@@ -39,12 +39,9 @@ img {
     height: auto;
 }
 
-h1 {
-    font-size: 2rem;
-}
-
+h1, 
 p {
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 #content {

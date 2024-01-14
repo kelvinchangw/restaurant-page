@@ -57,6 +57,7 @@ p {
     align-items: center;
     padding: 2rem;
     color: var(--body-background-clr);
+    gap: 4rem;
 }
 
 .page {

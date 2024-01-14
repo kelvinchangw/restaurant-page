@@ -12,7 +12,7 @@ function loadMenuPage() {
 
     // Menu image
     const image = document.createElement("img");
-    image.src = "./menu.jpg";
+    image.src = "../menu.jpg";
     image.alt = "Our menu";
     image.classList.add("homepage-img");
 

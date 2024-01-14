@@ -52,7 +52,7 @@ p {
     display: flex;
     flex-direction: column;
     width: 30vw;
-    height: 58vh;
+    min-height: 58vh;
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
@@ -63,10 +63,11 @@ p {
     display: flex;
     flex-direction: column;
     width: 30vw;
-    height: 44vh;
+    min-height: 44vh;
     justify-content: space-between;
     align-items: center;
     padding: 2rem 2rem 0 2rem;
+    gap: 2rem;
 }
 
 .btn-box {

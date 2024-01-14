@@ -1,3 +1,5 @@
+import menuImg from "../menu.jpg";
+
 function loadMenuPage() {
     // Main content div
     const content = document.getElementById("content");
@@ -12,7 +14,7 @@ function loadMenuPage() {
 
     // Menu image
     const image = document.createElement("img");
-    image.src = "../menu.jpg";
+    image.src = menuImg;
     image.alt = "Our menu";
     image.classList.add("homepage-img");
 

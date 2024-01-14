@@ -1,3 +1,5 @@
+import contactImg from "../contact.jpg";
+
 function loadContactPage() {
     // Main content div
     const content = document.getElementById("content");
@@ -12,7 +14,7 @@ function loadContactPage() {
 
     // Contact image
     const image = document.createElement("img");
-    image.src = "../contact.jpg";
+    image.src = contactImg;
     image.alt = "Contact image";
     image.classList.add("homepage-img");
 

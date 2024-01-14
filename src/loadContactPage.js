@@ -12,7 +12,7 @@ function loadContactPage() {
 
     // Contact image
     const image = document.createElement("img");
-    image.src = "../contact.jpg";
+    image.src = "./contact.jpg";
     image.alt = "Restaurant image";
     image.classList.add("homepage-img");
 

@@ -12,7 +12,7 @@ function loadHomePage() {
 
     // Restaurant image
     const image = document.createElement("img");
-    image.src = "../homepage.jpg";
+    image.src = "./homepage.jpg";
     image.alt = "Restaurant image";
     image.classList.add("homepage-img");
 

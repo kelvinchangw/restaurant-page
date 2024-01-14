@@ -1,3 +1,81 @@
-.hello {
-    background-color: red;
+:root {
+    --body-background-clr: #F6C28B;
+    --content-background-clr: #98473E;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: var(--body-background-clr);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    width: 30%;
+    height: 4rem;
+    font-size: 2rem;
+    color: var(--content-background-clr);
+    transition: all ease-out .1s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(1);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+#content {
+    background-color: var(--content-background-clr);
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 58vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    color: var(--body-background-clr);
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 44vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 2rem 0 2rem;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#content,
+.homepage-img {
+    border-radius: 4px;
 }

@@ -48,7 +48,7 @@ p {
     background-color: var(--content-background-clr);
     display: flex;
     flex-direction: column;
-    width: 30vw;
+    min-width: max(30vw, 200px);
     min-height: 58vh;
     justify-content: space-between;
     align-items: center;

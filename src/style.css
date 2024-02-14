@@ -48,7 +48,11 @@ p {
     background-color: var(--content-background-clr);
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     min-width: max(30vw, 200px);
+=======
+    width: 40vw;
+>>>>>>> 44c1d643d3722b61933d712208f07ada09e9268c
     min-height: 58vh;
     justify-content: space-between;
     align-items: center;
@@ -60,7 +64,7 @@ p {
 .page {
     display: flex;
     flex-direction: column;
-    width: 30vw;
+    width: 100%;
     min-height: 44vh;
     justify-content: space-between;
     align-items: center;
